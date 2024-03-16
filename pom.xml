@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.coderic.iso20022.messages</groupId>
+  <groupId>org.coderic.model</groupId>
   <artifactId>core</artifactId>
   <version>0.0.1</version>
   <packaging>pom</packaging>
-  <name>core: ISO 20022 Message Definition</name>
-  <description>ISO 20022 Message Definition Schema Specification on Jaxb for WS</description>
-  <url>https://github.com/CodericBusiness/org.coderic.iso20022.messages</url>
+  <name>model</name>
+  <description>Common Schema Specification on Jaxb for WS</description>
+  <url>https://github.com/CodericBusiness/org.coderic.ubl.core</url>
   <organization>
     <name>Coderic</name>
     <url>https://coderic.org/</url>
   </organization>
   <inceptionYear>2024</inceptionYear>
-  <licenses>
-    <license>
-      <name>The GNU GPL3 license</name>
-      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
+	<licenses>
+		<license>
+			<name>Apache 2.0 license</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
   <scm>
-    <connection>scm:git:git://github.com/CodericBusiness/org.coderic.iso20022.messages.git</connection>
-    <developerConnection>scm:git:ssh://github.com:CodericBusiness/org.coderic.iso20022.messages.git</developerConnection>
-    <url>http://github.com/CodericBusiness/org.coderic.iso20022.messages/tree/master</url>
+    <connection>scm:git:git://github.com/CodericBusiness/org.coderic.ubl.core.git</connection>
+    <developerConnection>scm:git:ssh://github.com:CodericBusiness/org.coderic.ubl.core.git</developerConnection>
+    <url>http://github.com/CodericBusiness/org.coderic.ubl.core/tree/master</url>
   </scm>
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/CodericBusiness/org.coderic.iso20022.messages/actions</url>
+    <url>https://github.com/CodericBusiness/org.coderic.ubl.core/actions</url>
   </ciManagement>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/CodericBusiness/org.coderic.iso20022.messages/issues</url>
+    <url>https://github.com/CodericBusiness/org.coderic.ubl.core/issues</url>
   </issueManagement>
   <developers>
     <developer>
@@ -287,36 +287,7 @@
     </plugins>
   </reporting>
   <modules>
-    <module>modules/acmt</module>
-    <module>modules/admi</module>
-    <module>modules/auth</module>
-    <module>modules/caaa</module>
-    <module>modules/caad</module>
-    <module>modules/caam</module>
-    <module>modules/cafc</module>
-    <module>modules/cafm</module>
-    <module>modules/cafr</module>
-    <module>modules/cain</module>
-    <module>modules/camt</module>
-    <module>modules/canm</module>
-    <module>modules/casp</module>
-    <module>modules/casr</module>
-    <module>modules/catm</module>
-    <module>modules/catp</module>
-    <module>modules/colr</module>
-    <module>modules/fxtr</module>
-    <module>modules/head</module>
-    <module>modules/pacs</module>
-    <module>modules/pain</module>
-    <module>modules/reda</module>
-    <module>modules/remt</module>
-    <module>modules/secl</module>
-    <module>modules/seev</module>
-    <module>modules/semt</module>
-    <module>modules/sese</module>
-    <module>modules/setr</module>
-    <module>modules/tsin</module>
-    <module>modules/tsmt</module>
-    <module>modules/tsrv</module>
+    <module>modules/ccts</module>
+    <module>modules/xmldsig</module>
   </modules>
 </project>

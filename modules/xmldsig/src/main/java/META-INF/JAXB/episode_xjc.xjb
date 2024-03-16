@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.16 a las 05:52:45 AM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://uri.etsi.org/01903/v1.3.2#">
+    <schemaBindings map="false">
+      <package name="org.coderic.model.common.xmldsig"/>
+    </schemaBindings>
+    <bindings scd="~tns:AnyType">
+      <class ref="org.coderic.model.common.xmldsig.AnyType"/>
+    </bindings>
+    <bindings scd="~tns:ObjectIdentifierType">
+      <class ref="org.coderic.model.common.xmldsig.ObjectIdentifierType"/>
+    </bindings>
+    <bindings scd="~tns:EncapsulatedPKIDataType">
+      <class ref="org.coderic.model.common.xmldsig.EncapsulatedPKIDataType"/>
+    </bindings>
+    <bindings scd="~tns:IncludeType">
+      <class ref="org.coderic.model.common.xmldsig.IncludeType"/>
+    </bindings>
+    <bindings scd="~tns:ReferenceInfoType">
+      <class ref="org.coderic.model.common.xmldsig.ReferenceInfoType"/>
+    </bindings>
+    <bindings scd="~tns:XAdESTimeStampType">
+      <class ref="org.coderic.model.common.xmldsig.XAdESTimeStampType"/>
+    </bindings>
+    <bindings scd="~tns:OtherTimeStampType">
+      <class ref="org.coderic.model.common.xmldsig.OtherTimeStampType"/>
+    </bindings>
+    <bindings scd="~tns:QualifyingPropertiesType">
+      <class ref="org.coderic.model.common.xmldsig.QualifyingPropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:SignedPropertiesType">
+      <class ref="org.coderic.model.common.xmldsig.SignedPropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:UnsignedPropertiesType">
+      <class ref="org.coderic.model.common.xmldsig.UnsignedPropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:SignedSignaturePropertiesType">
+      <class ref="org.coderic.model.common.xmldsig.SignedSignaturePropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:SignedDataObjectPropertiesType">
+      <class ref="org.coderic.model.common.xmldsig.SignedDataObjectPropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:UnsignedSignaturePropertiesType">
+      <class ref="org.coderic.model.common.xmldsig.UnsignedSignaturePropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:UnsignedDataObjectPropertiesType">
+      <class ref="org.coderic.model.common.xmldsig.UnsignedDataObjectPropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:QualifyingPropertiesReferenceType">
+      <class ref="org.coderic.model.common.xmldsig.QualifyingPropertiesReferenceType"/>
+    </bindings>
+    <bindings scd="~tns:CertIDListType">
+      <class ref="org.coderic.model.common.xmldsig.CertIDListType"/>
+    </bindings>
+    <bindings scd="~tns:SignaturePolicyIdentifierType">
+      <class ref="org.coderic.model.common.xmldsig.SignaturePolicyIdentifierType"/>
+    </bindings>
+    <bindings scd="~tns:SPUserNoticeType">
+      <class ref="org.coderic.model.common.xmldsig.SPUserNoticeType"/>
+    </bindings>
+    <bindings scd="~tns:CounterSignatureType">
+      <class ref="org.coderic.model.common.xmldsig.CounterSignatureType"/>
+    </bindings>
+    <bindings scd="~tns:DataObjectFormatType">
+      <class ref="org.coderic.model.common.xmldsig.DataObjectFormatType"/>
+    </bindings>
+    <bindings scd="~tns:CommitmentTypeIndicationType">
+      <class ref="org.coderic.model.common.xmldsig.CommitmentTypeIndicationType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureProductionPlaceType">
+      <class ref="org.coderic.model.common.xmldsig.SignatureProductionPlaceType"/>
+    </bindings>
+    <bindings scd="~tns:SignerRoleType">
+      <class ref="org.coderic.model.common.xmldsig.SignerRoleType"/>
+    </bindings>
+    <bindings scd="~tns:CompleteCertificateRefsType">
+      <class ref="org.coderic.model.common.xmldsig.CompleteCertificateRefsType"/>
+    </bindings>
+    <bindings scd="~tns:CompleteRevocationRefsType">
+      <class ref="org.coderic.model.common.xmldsig.CompleteRevocationRefsType"/>
+    </bindings>
+    <bindings scd="~tns:CertificateValuesType">
+      <class ref="org.coderic.model.common.xmldsig.CertificateValuesType"/>
+    </bindings>
+    <bindings scd="~tns:RevocationValuesType">
+      <class ref="org.coderic.model.common.xmldsig.RevocationValuesType"/>
+    </bindings>
+    <bindings scd="~tns:IdentifierType">
+      <class ref="org.coderic.model.common.xmldsig.IdentifierType"/>
+    </bindings>
+    <bindings scd="~tns:DocumentationReferencesType">
+      <class ref="org.coderic.model.common.xmldsig.DocumentationReferencesType"/>
+    </bindings>
+    <bindings scd="~tns:GenericTimeStampType">
+      <class ref="org.coderic.model.common.xmldsig.GenericTimeStampType"/>
+    </bindings>
+    <bindings scd="~tns:CertIDType">
+      <class ref="org.coderic.model.common.xmldsig.CertIDType"/>
+    </bindings>
+    <bindings scd="~tns:DigestAlgAndValueType">
+      <class ref="org.coderic.model.common.xmldsig.DigestAlgAndValueType"/>
+    </bindings>
+    <bindings scd="~tns:SignaturePolicyIdType">
+      <class ref="org.coderic.model.common.xmldsig.SignaturePolicyIdType"/>
+    </bindings>
+    <bindings scd="~tns:SigPolicyQualifiersListType">
+      <class ref="org.coderic.model.common.xmldsig.SigPolicyQualifiersListType"/>
+    </bindings>
+    <bindings scd="~tns:NoticeReferenceType">
+      <class ref="org.coderic.model.common.xmldsig.NoticeReferenceType"/>
+    </bindings>
+    <bindings scd="~tns:IntegerListType">
+      <class ref="org.coderic.model.common.xmldsig.IntegerListType"/>
+    </bindings>
+    <bindings scd="~tns:CommitmentTypeQualifiersListType">
+      <class ref="org.coderic.model.common.xmldsig.CommitmentTypeQualifiersListType"/>
+    </bindings>
+    <bindings scd="~tns:ClaimedRolesListType">
+      <class ref="org.coderic.model.common.xmldsig.ClaimedRolesListType"/>
+    </bindings>
+    <bindings scd="~tns:CertifiedRolesListType">
+      <class ref="org.coderic.model.common.xmldsig.CertifiedRolesListType"/>
+    </bindings>
+    <bindings scd="~tns:CRLRefsType">
+      <class ref="org.coderic.model.common.xmldsig.CRLRefsType"/>
+    </bindings>
+    <bindings scd="~tns:CRLRefType">
+      <class ref="org.coderic.model.common.xmldsig.CRLRefType"/>
+    </bindings>
+    <bindings scd="~tns:CRLIdentifierType">
+      <class ref="org.coderic.model.common.xmldsig.CRLIdentifierType"/>
+    </bindings>
+    <bindings scd="~tns:OCSPRefsType">
+      <class ref="org.coderic.model.common.xmldsig.OCSPRefsType"/>
+    </bindings>
+    <bindings scd="~tns:OCSPRefType">
+      <class ref="org.coderic.model.common.xmldsig.OCSPRefType"/>
+    </bindings>
+    <bindings scd="~tns:ResponderIDType">
+      <class ref="org.coderic.model.common.xmldsig.ResponderIDType"/>
+    </bindings>
+    <bindings scd="~tns:OCSPIdentifierType">
+      <class ref="org.coderic.model.common.xmldsig.OCSPIdentifierType"/>
+    </bindings>
+    <bindings scd="~tns:OtherCertStatusRefsType">
+      <class ref="org.coderic.model.common.xmldsig.OtherCertStatusRefsType"/>
+    </bindings>
+    <bindings scd="~tns:CRLValuesType">
+      <class ref="org.coderic.model.common.xmldsig.CRLValuesType"/>
+    </bindings>
+    <bindings scd="~tns:OCSPValuesType">
+      <class ref="org.coderic.model.common.xmldsig.OCSPValuesType"/>
+    </bindings>
+    <bindings scd="~tns:OtherCertStatusValuesType">
+      <class ref="org.coderic.model.common.xmldsig.OtherCertStatusValuesType"/>
+    </bindings>
+    <bindings scd="~tns:QualifierType">
+      <typesafeEnumClass ref="org.coderic.model.common.xmldsig.QualifierType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.w3.org/2000/09/xmldsig#">
+    <schemaBindings map="false">
+      <package name="org.coderic.model.common.xmldsig"/>
+    </schemaBindings>
+    <bindings scd="~tns:SignatureType">
+      <class ref="org.coderic.model.common.xmldsig.SignatureType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureValueType">
+      <class ref="org.coderic.model.common.xmldsig.SignatureValueType"/>
+    </bindings>
+    <bindings scd="~tns:SignedInfoType">
+      <class ref="org.coderic.model.common.xmldsig.SignedInfoType"/>
+    </bindings>
+    <bindings scd="~tns:CanonicalizationMethodType">
+      <class ref="org.coderic.model.common.xmldsig.CanonicalizationMethodType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureMethodType">
+      <class ref="org.coderic.model.common.xmldsig.SignatureMethodType"/>
+    </bindings>
+    <bindings scd="~tns:ReferenceType">
+      <class ref="org.coderic.model.common.xmldsig.ReferenceType"/>
+    </bindings>
+    <bindings scd="~tns:TransformsType">
+      <class ref="org.coderic.model.common.xmldsig.TransformsType"/>
+    </bindings>
+    <bindings scd="~tns:TransformType">
+      <class ref="org.coderic.model.common.xmldsig.TransformType"/>
+    </bindings>
+    <bindings scd="~tns:DigestMethodType">
+      <class ref="org.coderic.model.common.xmldsig.DigestMethodType"/>
+    </bindings>
+    <bindings scd="~tns:KeyInfoType">
+      <class ref="org.coderic.model.common.xmldsig.KeyInfoType"/>
+    </bindings>
+    <bindings scd="~tns:KeyValueType">
+      <class ref="org.coderic.model.common.xmldsig.KeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:RetrievalMethodType">
+      <class ref="org.coderic.model.common.xmldsig.RetrievalMethodType"/>
+    </bindings>
+    <bindings scd="~tns:X509DataType">
+      <class ref="org.coderic.model.common.xmldsig.X509DataType"/>
+    </bindings>
+    <bindings scd="~tns:PGPDataType">
+      <class ref="org.coderic.model.common.xmldsig.PGPDataType"/>
+    </bindings>
+    <bindings scd="~tns:SPKIDataType">
+      <class ref="org.coderic.model.common.xmldsig.SPKIDataType"/>
+    </bindings>
+    <bindings scd="~tns:ObjectType">
+      <class ref="org.coderic.model.common.xmldsig.ObjectType"/>
+    </bindings>
+    <bindings scd="~tns:ManifestType">
+      <class ref="org.coderic.model.common.xmldsig.ManifestType"/>
+    </bindings>
+    <bindings scd="~tns:SignaturePropertiesType">
+      <class ref="org.coderic.model.common.xmldsig.SignaturePropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:SignaturePropertyType">
+      <class ref="org.coderic.model.common.xmldsig.SignaturePropertyType"/>
+    </bindings>
+    <bindings scd="~tns:DSAKeyValueType">
+      <class ref="org.coderic.model.common.xmldsig.DSAKeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:RSAKeyValueType">
+      <class ref="org.coderic.model.common.xmldsig.RSAKeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:X509IssuerSerialType">
+      <class ref="org.coderic.model.common.xmldsig.X509IssuerSerialType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://uri.etsi.org/01903/v1.4.1#">
+    <schemaBindings map="false">
+      <package name="org.coderic.model.common.xmldsig"/>
+    </schemaBindings>
+    <bindings scd="~tns:ValidationDataType">
+      <class ref="org.coderic.model.common.xmldsig.ValidationDataType"/>
+    </bindings>
+  </bindings>
+</bindings>
+

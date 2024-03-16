@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.16 a las 05:52:39 AM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2">
+    <schemaBindings map="false">
+      <package name="org.coderic.model.common.ccts"/>
+    </schemaBindings>
+    <bindings scd="~tns:AmountType">
+      <class ref="org.coderic.model.common.ccts.AmountType"/>
+    </bindings>
+    <bindings scd="~tns:BinaryObjectType">
+      <class ref="org.coderic.model.common.ccts.BinaryObjectType"/>
+    </bindings>
+    <bindings scd="~tns:CodeType">
+      <class ref="org.coderic.model.common.ccts.CodeType"/>
+    </bindings>
+    <bindings scd="~tns:DateTimeType">
+      <class ref="org.coderic.model.common.ccts.DateTimeType"/>
+    </bindings>
+    <bindings scd="~tns:IdentifierType">
+      <class ref="org.coderic.model.common.ccts.IdentifierType"/>
+    </bindings>
+    <bindings scd="~tns:IndicatorType">
+      <class ref="org.coderic.model.common.ccts.IndicatorType"/>
+    </bindings>
+    <bindings scd="~tns:MeasureType">
+      <class ref="org.coderic.model.common.ccts.MeasureType"/>
+    </bindings>
+    <bindings scd="~tns:NumericType">
+      <class ref="org.coderic.model.common.ccts.NumericType"/>
+    </bindings>
+    <bindings scd="~tns:QuantityType">
+      <class ref="org.coderic.model.common.ccts.QuantityType"/>
+    </bindings>
+    <bindings scd="~tns:TextType">
+      <class ref="org.coderic.model.common.ccts.TextType"/>
+    </bindings>
+  </bindings>
+</bindings>
+

@@ -1,4 +1,4 @@
-package org.coderic.iso20022.messages;
+package org.coderic.ubl.core;
 
 import static org.junit.Assert.assertTrue;
 
