@@ -1,4 +1,4 @@
-package org.coderic.ubl.core;
+package org.coderic.model.common;
 
 import junit.framework.TestCase;
 import org.junit.Test;

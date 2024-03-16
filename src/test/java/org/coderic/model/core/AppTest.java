@@ -1,4 +1,4 @@
-package org.coderic.ubl.core;
+package org.coderic.model.core;
 
 import static org.junit.Assert.assertTrue;
 
