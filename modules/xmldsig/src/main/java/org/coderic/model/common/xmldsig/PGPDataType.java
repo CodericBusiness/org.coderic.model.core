@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.03.16 a las 06:09:41 AM COT 
+// Generado el: 2024.04.07 a las 03:02:10 AM COT 
 //
 
 
@@ -66,8 +66,8 @@ public class PGPDataType {
      * <p>
      * Ha obtenido esta propiedad que permite capturar todo por el siguiente motivo: 
      * El nombre de campo "PGPKeyPacket" se está utilizando en dos partes diferentes de un esquema. Consulte: 
-     * línea 229 de file:/home/neftaliyagua/dev/CodericBusiness/org.coderic.ubl.core/modules/xmldsig/src/main/xsd/UBL-xmldsig-core-schema-2.1.xsd
-     * línea 224 de file:/home/neftaliyagua/dev/CodericBusiness/org.coderic.ubl.core/modules/xmldsig/src/main/xsd/UBL-xmldsig-core-schema-2.1.xsd
+     * línea 229 de file:/home/neftaliyagua/dev/CodericBusiness/org.coderic.model.core/modules/xmldsig/src/main/xsd/UBL-xmldsig-core-schema-2.1.xsd
+     * línea 224 de file:/home/neftaliyagua/dev/CodericBusiness/org.coderic.model.core/modules/xmldsig/src/main/xsd/UBL-xmldsig-core-schema-2.1.xsd
      * <p>
      * Para deshacerse de esta propiedad, aplique una personalización de propiedad a una
      * de las dos declaraciones siguientes para cambiarles de nombre: 

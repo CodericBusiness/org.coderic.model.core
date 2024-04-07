@@ -13,15 +13,9 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-concurrency:
-  group: github-pages
-  cancel-in-progress: false
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 jobs:
-  build:
+  test:
+    environment: testing
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,18 +27,3 @@ jobs:
           cache: maven
       - name: Test with Maven
         run: mvn clean test --file pom.xml
-      - name: Deploy site
-        run: mvn clean site --file pom.xml
-      - name: Move sites
-        run: |
-          mv modules/ccts/target/site target/site/ccts
-          mv modules/xmldsig/target/site target/site/xmldsig
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./target/site
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
