@@ -9,6 +9,7 @@
         <module name="cafr" />
         <module name="auth" />
         <module name="reda" />
+        <module name="xmldsig" />
         <module name="cafm" />
         <module name="semt" />
         <module name="secl" />
@@ -31,6 +32,7 @@
         <module name="cain" />
         <module name="caad" />
         <module name="remt" />
+        <module name="ccts" />
         <module name="canm" />
         <module name="catp" />
         <module name="cafc" />

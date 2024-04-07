@@ -14,7 +14,7 @@
     </bannerRight>
     <poweredBy>
         <logo name="Coderic" href="https://coderic.org/"
-              img="https://business.coderic.org/org.coderic.ubl.core/images/logo.png" position="center"
+              img="https://business.coderic.org/org.coderic.model.core/images/logo.png" position="center"
               width="80%" title="Coderic"/>
     </poweredBy>
     <skin>
@@ -29,14 +29,14 @@
 
         </fluidoSkin>
     </custom>
-    <edit>https://github.com/CodericBusiness/org.coderic.ubl.core/edit/master/</edit>
+    <edit>https://github.com/CodericBusiness/org.coderic.model.core/edit/master/</edit>
     <body>
         <breadcrumbs>
             <item name="${project.artifactId}" href="/index.html"/>
         </breadcrumbs>
         <links>
-            <item name="Español" href="https://business.coderic.org/org.coderic.ubl.core/es/"/>
-            <item name="Repository" href="https://github.com/CodericBusiness/org.coderic.ubl.core"/>
+            <item name="Español" href="https://business.coderic.org/org.coderic.model.core/es/"/>
+            <item name="Repository" href="https://github.com/CodericBusiness/org.coderic.model.core"/>
             <item name="Swift" href="https://www.swift.com/"/>
             <item name="ISO 20022" href="https://www.iso20022.org/"/>
         </links>

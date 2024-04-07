@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
   <name>model</name>
   <description>Common Schema Specification on Jaxb for WS</description>
-  <url>https://github.com/CodericBusiness/org.coderic.ubl.core</url>
+  <url>https://github.com/CodericBusiness/org.coderic.model.core</url>
   <organization>
     <name>Coderic</name>
     <url>https://coderic.org/</url>
@@ -21,17 +21,17 @@
 		</license>
 	</licenses>
   <scm>
-    <connection>scm:git:git://github.com/CodericBusiness/org.coderic.ubl.core.git</connection>
-    <developerConnection>scm:git:ssh://github.com:CodericBusiness/org.coderic.ubl.core.git</developerConnection>
-    <url>http://github.com/CodericBusiness/org.coderic.ubl.core/tree/master</url>
+    <connection>scm:git:git://github.com/CodericBusiness/org.coderic.model.core.git</connection>
+    <developerConnection>scm:git:ssh://github.com:CodericBusiness/org.coderic.model.core.git</developerConnection>
+    <url>http://github.com/CodericBusiness/org.coderic.model.core/tree/master</url>
   </scm>
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/CodericBusiness/org.coderic.ubl.core/actions</url>
+    <url>https://github.com/CodericBusiness/org.coderic.model.core/actions</url>
   </ciManagement>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/CodericBusiness/org.coderic.ubl.core/issues</url>
+    <url>https://github.com/CodericBusiness/org.coderic.model.core/issues</url>
   </issueManagement>
   <developers>
     <developer>
@@ -60,7 +60,7 @@
     <dependency>
       <groupId>jakarta.xml.bind</groupId>
       <artifactId>jakarta.xml.bind-api</artifactId>
-      <version>4.0.1</version>
+      <version>4.0.2</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -86,7 +86,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.12.1</version>
+          <version>3.13.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -129,7 +129,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.12.1</version>
+        <version>3.13.0</version>
         <configuration>
             <source>17</source>
             <target>17</target>
@@ -166,7 +166,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
-        <version>3.1.0</version>
+        <version>3.2.2</version>
         <executions>
           <execution>
             <id>sign-artifacts</id>
@@ -192,7 +192,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
-        <version>2.2.1</version>
+        <version>3.3.1</version>
         <executions>
           <execution>
             <id>attach-sources</id>
